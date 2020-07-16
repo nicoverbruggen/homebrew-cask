@@ -1,8 +1,8 @@
 cask 'phpmon' do
-  version '2.1.0'
-  sha256 '5e7624d209b06cc953d592ea75f206fc9e1605051eb387201cfe97a4fd5ba79a'
+  version '2.2.0'
+  sha256 '62b7b533607ba983794ce6e1aa78260e06513646c34407bd24f103bcf5800592'
 
-  url 'https://github.com/nicoverbruggen/phpmon/releases/download/v2.1/phpmon.zip'
+  url 'https://github.com/nicoverbruggen/phpmon/releases/download/v2.2/phpmon.zip'
   appcast 'https://github.com/nicoverbruggen/phpmon/releases.atom'
   name 'PHP Monitor'
   homepage 'https://github.com/nicoverbruggen/phpmon'
