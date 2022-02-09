@@ -8,5 +8,5 @@ cask 'phpmon-dev' do
   name 'PHP Monitor DEV'
   homepage 'https://phpmon.app'
 
-  app 'PHP Monitor DEV.app'
+  app 'PHP Monitor.app', target: "PHP Monitor DEV.app"
 end
