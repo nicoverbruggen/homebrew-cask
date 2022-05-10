@@ -1,6 +1,7 @@
 cask 'phpmon' do
   depends_on formula: 'gnu-sed'
-  version '5.2.2'
+
+  version '5.2.2_761'
   sha256 '124036c9da1d7a811f3c47d89ee2e813972d1cad64564df6e78272e7043fa2b4'
 
   url 'https://github.com/nicoverbruggen/phpmon/releases/download/v5.2.2/phpmon.zip'
