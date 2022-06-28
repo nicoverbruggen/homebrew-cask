@@ -1,10 +1,10 @@
 cask 'phpmon' do
   depends_on formula: 'gnu-sed'
 
-  version '5.3.2_790'
-  sha256 '643d88980216eaf91446b37da49c93ae778c609a68c5c6932c648798e8227316'
+  version '5.4.0_911'
+  sha256 '7818b66536ae2b2c35b38099258dcda80f253614957531e11e4ec0bef2493d6e'
 
-  url 'https://github.com/nicoverbruggen/phpmon/releases/download/v5.3.2/phpmon.zip'
+  url 'https://github.com/nicoverbruggen/phpmon/releases/download/v5.4/phpmon.zip'
   appcast 'https://github.com/nicoverbruggen/phpmon/releases.atom'
   name 'PHP Monitor'
   homepage 'https://phpmon.app'
