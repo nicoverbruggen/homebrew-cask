@@ -1,8 +1,8 @@
 cask 'phpmon-dev' do
   depends_on formula: 'gnu-sed'
 
-  version '5.7.0_1026'
-  sha256 '60f4b402ec42fb5b3e0224dfc68c1209a1c86cfc3f83b34a2a301592ae7f507f'
+  version '5.7.0_1027'
+  sha256 '521ccf7c89eea99fc8c2ca3ddb88f38518f33ba01154a29d2e7e8d02e6f2c945'
 
   url 'https://github.com/nicoverbruggen/phpmon/releases/download/v5.7b4/phpmon-dev.zip'
   appcast 'https://github.com/nicoverbruggen/phpmon/releases.atom'
