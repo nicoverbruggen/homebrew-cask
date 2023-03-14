@@ -1,5 +1,6 @@
 cask 'phpmon-dev' do
   depends_on formula: 'gnu-sed'
+  depends_on macos: ">= :monterey"
 
   version '5.8.0_1077'
   sha256 '837084fd5e34ec8f00d3054cbf127aad69cfc85180abaeace985fb483dfa5366'
