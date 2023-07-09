@@ -6,7 +6,6 @@ cask 'phpmon-dev' do
   sha256 'e31c8cc0dd4f4ca1ce81c4b24fa042d5bfb939c70200499470f4ef93ddcfa077'
 
   url 'https://github.com/nicoverbruggen/phpmon/releases/download/v6.0.1/phpmon-dev.zip'
-  appcast 'https://github.com/nicoverbruggen/phpmon/releases.atom'
   name 'PHP Monitor DEV'
   homepage 'https://phpmon.app'
 
