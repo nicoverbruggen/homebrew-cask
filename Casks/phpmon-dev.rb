@@ -1,4 +1,5 @@
 cask 'phpmon-dev' do
+  deprecate! date: "2025-03-22", because: :unmaintained, replacement: "phpmon"
   depends_on formula: 'gnu-sed'
   depends_on macos: ">= :monterey"
 
