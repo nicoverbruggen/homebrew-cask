@@ -1,11 +1,11 @@
 cask 'phpmon' do
   depends_on formula: 'gnu-sed'
-  depends_on macos: ">= :monterey"
+  depends_on macos: ">= :ventura"
 
-  version '7.2_1535'
-  sha256 '6c7b0d1a4bb06f9282a90f9256eea0a3edd77c2773c04e8c5183970337269bf9'
+  version '25.06_1555'
+  sha256 '83f88568a9a41a7e01aeba6572bea2ac268b7f3f6ab0268d2f2c5db7cb276e2c'
 
-  url 'https://github.com/nicoverbruggen/phpmon/releases/download/v7.2/phpmon.zip'
+  url 'https://github.com/nicoverbruggen/phpmon/releases/download/v25.06/phpmon.zip'
   name 'PHP Monitor'
   homepage 'https://phpmon.app'
 
