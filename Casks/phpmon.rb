@@ -1,6 +1,6 @@
 cask 'phpmon' do
   depends_on formula: 'gnu-sed'
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   version '26.05.2_2006'
   sha256 '3889cc475459c01f4324f006ad38f5c1edec6b31d5d54a7bebddb0505b4a3244'
